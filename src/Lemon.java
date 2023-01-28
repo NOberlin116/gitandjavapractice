@@ -5,14 +5,12 @@
  *
  */
 
-public class Lemon extends Fruit {
+public class Lemon implements Fruit {
 
-	@Override
 	public void taste() {
 		System.out.println("It tastes sour.");
 	}
 
-	@Override
 	public void look() {
 		System.out.println("It is yellow and has bumpy skin.");
 	}

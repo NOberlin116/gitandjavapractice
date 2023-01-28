@@ -5,14 +5,10 @@
  *
  */
 
-public class Fruit {
+public interface Fruit {
 
-	public void taste() {
-		System.out.println("Fruits can range from sour to sweet");
-	}
+	public void taste();
 	
-	public void look() {
-		System.out.println("Fruits come in all shapes and sizes");
-	}
+	public void look();
 
 }
